@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-Light.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/Geometria-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+
+  font-family: 'Geometria', Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* CSS-правила для Header */
+.header-container {
+	display: flex;
+
+	max-width: 600px;
+
+	justify-content: space-between;
+	align-items: baseline;
+
+	margin-top: 30px;
+	
+}
+
+.logo-container {
+	display: flex;
+	margin-right: 70px;
+
+	height: 55px;
+}
+
+.logo-img {
+	background-color: #000;
+
+	height: 25px;
+	width: 160px;
+}
+
+.menu-container {
+	display: none;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+.menu-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.menu-list-item {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+.menu-list-item:hover {
+	color: #ae32c8;
+}
+
+.profile-container {
+	display: flex;
+}
+
+.profile-picture {
+	margin-right: 10px;
+	margin-top: -15px;
+}
+
+.profile-img{
+	height: 25px;
+}
+
+.profile-container {
+	margin-top: 20px;
+}
+
+.profile-caption {
+	display: none;
+}
+
+
+
+
+/* CSS-правила для Recomendation контейнера*/
+.recomendation-container {
+	display: none;
+	flex-direction: column;
+
+	margin-top: 70px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	padding-top: 90px;
+	padding-bottom: 200px;
+
+	background-image: url('../images/Задний фон Learn-more контейнера.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* CSS для Learn-more */
+.learn-more-container {
+	width: 100%;
+}
+
+.tags-list-item {
+	margin-right: 25px;
+	padding: 5px 15px;
+	
+	border-radius: 20px;
+}
+
+.tags-list-item:hover {
+	background-color: #347d42;
+	color: #fff;
+}
+
+.tags-list-item-link {
+	text-decoration: none;
+	text-transform: uppercase;
+
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.tag-week-top {
+	border: 1px solid #347d42;
+}
+
+.tag-week-top-link{
+	color: #40ea12;
+}
+
+.tag-hot-clip {
+	border: 1px solid #938b48;
+}
+
+.tag-hot-clip-link {
+	color: #c2b85b;
+}
+
+.tag-creators-choice {
+	border: 1px solid #485193;
+}
+
+.tag-creators-choice-link {
+	color: #485193;
+}
+
+.learn-more-caption:hover {
+	color: #ae32c8;
+}
+
+.learn-more-caption-text {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 55px;
+
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+
+.learn-more-button {
+	display: block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+	background-color: #be2cdd;
+
+	border-radius: 50px;
+
+}
+
+.learn-more-button-text {
+	margin: 0;
+	padding: 15px 40px;
+
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+
+	color: #fff;
+}
+
+/* CSS для choice */
+.choice-container {
+	display: flex;
+/*
+	background-image: url('../images/Задний фон для изображения испольнителя.png');
+	background-repeat: no-repeat;
+	background-position: center;
+*/
+	width: 100%;
+}
+
+.choice-caption {
+	text-align: center;
+
+	margin-top: 200px;
+	margin-right: 90px;
+}
+
+.choice-picture{
+	height: 320px;
+	align-self: flex-end;
+}
+
+.title-text {
+	text-transform: uppercase;
+
+	font-weight: bold;
+	font-size: 30px;
+
+	color: #fff;
+
+	margin: 0;
+}
+
+.title-text-singer {
+	font-size: 35px;
+
+	margin-top: 15px;
+}
+
+.choice-caption-the-chart {
+	text-align: left;
+
+	margin: 0;
+	margin-top: 15px;
+
+	color: #d2d1d2;
+
+	font-size: 18px;
+}
+/* CSS-правила для Main */
+.playlist-container {
+
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.music-container {
+	margin-bottom: 35px;
+}
+
+.music-container:last-Child {
+	margin-bottom: 0;
+}
+
+.album-img {
+	height: 300px;
+	width: 100%;
+}
+
+.music-caption {
+	margin-top: 15px;
+
+	text-transform: uppercase;
+	font-size: 20px;
+
+	text-align: center;
+}
